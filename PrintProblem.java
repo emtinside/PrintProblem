@@ -1,12 +1,7 @@
-import java.util.Scanner;
-
 public class PrintProblem {
 
 	public static void main(String[] args) {
-		Scanner s= new Scanner(System.in);
-		System.out.println("enter # of rows: ");
-		int input = s.nextInt();
-		System.out.println(print(input,'+'));
+		System.out.println(print(5,'+')); //change this number
 	}
 	
 	public static String print(int rows, char c) {
